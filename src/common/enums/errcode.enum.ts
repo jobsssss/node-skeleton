@@ -1,0 +1,8 @@
+export enum Code {
+  OK = 0,
+  BAD_PARAMS = 400,
+  UNAUTHORIZATION = 401,
+  FORBIDDEN = 403,
+  INVALID_HEADERS = 405,
+  SERVER_ERROR = 500,
+}

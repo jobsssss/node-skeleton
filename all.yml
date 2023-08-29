@@ -1,0 +1,12 @@
+apps:
+  - script: './dist/api.js'
+    name: 'demo_api'
+    exec_mode: 'cluster'
+    instances: 1
+
+  - script: './dist/daemon/worker.js'
+    name: 'wallet_worker'
+
+  - script: './dist/daemon/cron.js'
+    name: 'cron'
+
